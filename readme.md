@@ -2,8 +2,6 @@
 
 ## rust-web-server
 
-[![](https://img.shields.io/crates/l/rust-web-server.svg)](./LICENSE)
-
 <center>
 
 [Official Documentation](https://docs.ltpp.vip/rust-web-server/)

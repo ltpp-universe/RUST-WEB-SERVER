@@ -175,8 +175,8 @@ impl Request {
         if safe_proxy_len == 0 {
             return NOT_PROXY.to_string();
         }
-        let mut rng: rand::prelude::ThreadRng = rand::thread_rng();
-        let random_index: usize = rng.gen_range(0..safe_proxy_len);
+        let mut rng: rand::prelude::ThreadRng = rand::rng();
+        let random_index: usize = rng.random_range(0..safe_proxy_len);
         safe_proxy_list[random_index].clone()
     }
 

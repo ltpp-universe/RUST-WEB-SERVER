@@ -1,6 +1,6 @@
 use crate::global::global::{ACCEPT_ENCODING, CONTENT_ENCODING, GZIP};
 use crate::utils::tools;
-use flate2::{write::GzEncoder, Compression};
+use flate2::{Compression, write::GzEncoder};
 use std::collections::HashMap;
 use std::io::prelude::*;
 

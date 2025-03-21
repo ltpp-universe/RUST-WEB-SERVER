@@ -4,7 +4,7 @@ use crate::global::global::{
     POST, PUT,
 };
 use crate::log::log;
-use percent_encoding::{percent_decode_str, percent_encode, NON_ALPHANUMERIC};
+use percent_encoding::{NON_ALPHANUMERIC, percent_decode_str, percent_encode};
 use std::collections::HashMap;
 use std::{
     fmt,

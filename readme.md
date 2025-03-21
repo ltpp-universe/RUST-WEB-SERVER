@@ -2,16 +2,11 @@
 
 ## rust-web-server
 
-[![](https://img.shields.io/crates/v/rust-web-server.svg)](https://crates.io/crates/rust-web-server)
-[![](https://img.shields.io/crates/d/rust-web-server.svg)](https://img.shields.io/crates/d/rust-web-server.svg)
-[![](https://docs.rs/rust-web-server/badge.svg)](https://docs.rs/rust-web-server)
 [![](https://img.shields.io/crates/l/rust-web-server.svg)](./LICENSE)
 
 <center>
 
 [Official Documentation](https://docs.ltpp.vip/rust-web-server/)
-
-[Api Docs](https://docs.rs/rust-web-server/latest/rust_web_server/)
 
 > This project started development on May 1, 2024.
 

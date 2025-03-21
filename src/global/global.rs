@@ -58,7 +58,7 @@ pub const WRITE_LOG_FILE_FAILED: &'static str = "Failed to write to log file";
 pub const PROXY_FAILED: &'static str = "Failed to proxy";
 pub const FAILED_TO_LOCK_THE_LISTENER: &'static str = "Failed to lock the listener";
 // 错误页
-pub const DEFAULT_ERROR_HTML:&'static str = "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><title>{}</title><style>body{display:flex;justify-content:center}</style></head><body><h1>{}</h1></body></html>";
+pub const DEFAULT_ERROR_HTML: &'static str = "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><title>{}</title><style>body{display:flex;justify-content:center}</style></head><body><h1>{}</h1></body></html>";
 // 100
 pub const CONTINUE_TEXT: &'static str = "Continue";
 // 101
